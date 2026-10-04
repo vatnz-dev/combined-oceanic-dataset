@@ -100,7 +100,7 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="French Poly.">
+  <Group Name="Tahiti">
     <Position Name="Tahiti Oceanic" Type="ASD" DefaultCenter="-144925.000-1382246.000" DefaultRange="6000">
       <Sectors>
         <Sector Name="NTTT" />
