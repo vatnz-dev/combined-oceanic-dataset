@@ -99,34 +99,6 @@
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-711936.000+1674616.000" DefaultRange="4500">
-      <Sectors>
-        <Sector Name="MAC" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-68.643611+166.451944</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="Coast" />
-        <Map Name="Airspace/ENR Sectors" />
-        <Map Name="Airspace/TMA Sectors" />
-        <Map Name="Airspace/FIR Boundaries" />
-        <Map Name="Navaids/NDB" />
-        <Map Name="Navaids/VOR" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="31000" />
-      <ArrivalLists />
-      <ControllerInfo>
-        <Line>MacMurdo Centre (FSS) - "Mac" | CPDLC available through text</Line>
-        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
-        <Line>Submit feedback - vats.im/nz/atc-fb</Line>
-      </ControllerInfo>
-    </Position>
   </Group>
   <Group Name="French Poly.">
     <Position Name="Tahiti Oceanic" Type="ASD" DefaultCenter="-144925.000-1382246.000" DefaultRange="6000">
@@ -578,6 +550,34 @@
     </Position>
   </Group>
   <Group Name="Antarctica">
+    <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-711936.000+1674616.000" DefaultRange="4500">
+      <Sectors>
+        <Sector Name="MAC" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-68.643611+166.451944</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="31000" />
+      <ArrivalLists />
+      <ControllerInfo>
+        <Line>MacMurdo Centre (FSS) - "Mac" | CPDLC available through text</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
+        <Line>Submit feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Williams Approach" Type="ASD" DefaultCenter="-772648.000+1665120.000" DefaultRange="250">
       <Sectors>
         <Sector Name="WDTMA" />
