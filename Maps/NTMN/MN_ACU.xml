@@ -2,9 +2,12 @@
 <Maps>
   <Map Type="System2" Name="02 RNP" Priority="1" Center="-09.770814-139.012481" CustomColourName="ProcArr">
     <!--Fix Symbols-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>MMN02</Point>
+    </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>IMN02</Point>
       <Point>IBULO</Point>
       <Point>ISBON</Point>
     </Symbol>
@@ -13,19 +16,31 @@
       <Point>FMN02</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>IMN02</Point>
-    </Symbol>
-    <Line Pattern="Solid">IMN02/FMN02/-094614.930-1390044.932</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">IMN02/FMN02/MMN02/-094614.930-1390044.932</Line>
     <Line Pattern="Solid">IBULO/IMN02</Line>
     <Line Pattern="Solid">ISBON/IMN02</Line>
   </Map>
   <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-09.770814-139.012481" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>IMN02</Point>
       <Point>IBULO</Point>
       <Point>ISBON</Point>
       <Point>FMN02</Point>
-      <Point>IMN02</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="20 SIDs" Priority="1" CustomColourName="ProcDep" Center="-09.770814-139.012481">
+    <Line Pattern="Dashed">
+      <!--Rwy20 IKES1S-->
+      -09.770814-139.012481/-09.783620-139.019900/MN501/IKESU
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>-09.783620-139.019900</Point>
+      <Point>MN501</Point>
+      <Point>IKESU</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>IKESU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="20 RNP" Priority="1" Center="-09.760139-139.006425" CustomColourName="ProcArr">

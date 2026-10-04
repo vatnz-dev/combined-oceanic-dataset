@@ -3,60 +3,39 @@
   <Map Type="System2" Name="04 SIDs" Priority="1" CustomColourName="ProcDep" Center="-17.545564-149.595386">
     <Line Pattern="Dashed">
       <!--Rwy04 ARIT4E-->
-      -17.545564-149.595386/-17.543090-149.591890/ARITI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy04 BENK3E-->
-      -17.545564-149.595386/MOANA/-17.475080-149.261930/BENKO
+      -17.545564-149.595386/-17.536540-149.582410/ARITI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy04 BENK4E-->
-      MOANA/AA501/BENKO
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy04 IKEL3E-->
-      -17.543090-149.591890/-17.350420-149.670240/IKELO
+      -17.545564-149.595386/MOANA/AA501/BENKO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy04 IKEL4E-->
-      -17.543090-149.591890/AA505/IKELO
+      -17.536540-149.582410/AA505/IKELO
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy04 MOSM4E-->
-      -17.543090-149.591890/BOBIX/MOSMA
+      -17.536540-149.582410/BOBIX/MOSMA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy04 PAST4E-->
-      -17.543090-149.591890/MOANA/PASTI
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy04 PAST3E-->
-      -17.545564-149.595386/-17.480640-149.277680/MOANA/-17.543090-149.591890/-17.459630-149.174480/-17.550460-149.165280/PASTI
+      AA501/PASTI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy04 VAIT4E-->
-      -17.543090-149.591890/AA503/VAITE
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy04 VAIT3E-->
-      -17.543090-149.591890/VAITE
+      -17.536540-149.582410/AA503/VAITE
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>-17.543090-149.591890</Point>
+      <Point>-17.536540-149.582410</Point>
       <Point>ARITI</Point>
       <Point>MOANA</Point>
-      <Point>-17.475080-149.261930</Point>
-      <Point>BENKO</Point>
       <Point>AA501</Point>
-      <Point>-17.350420-149.670240</Point>
-      <Point>IKELO</Point>
+      <Point>BENKO</Point>
       <Point>AA505</Point>
+      <Point>IKELO</Point>
       <Point>BOBIX</Point>
       <Point>MOSMA</Point>
       <Point>PASTI</Point>
-      <Point>-17.480640-149.277680</Point>
-      <Point>-17.459630-149.174480</Point>
-      <Point>-17.550460-149.165280</Point>
       <Point>AA503</Point>
       <Point>VAITE</Point>
     </Symbol>
@@ -71,8 +50,16 @@
   </Map>
   <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-17.561050-149.617825">
     <Line>
+      <!--Rwy04 AROB4K-->
+      AROBA/KARNO
+    </Line>
+    <Line>
       <!--Rwy04 AROB3V-->
-      AROBA/KARNO/OVINI
+      KARNO/OVINI
+    </Line>
+    <Line>
+      <!--Rwy04 ASOK4K-->
+      KARNO/TAF VOR/TAVIS/ASOKI
     </Line>
     <Line>
       <!--Rwy04 ASOK3V-->
@@ -83,15 +70,15 @@
       IDUTA/-17.573090-149.914340/-17.639970-149.900270/-17.706550-149.868010/-17.732410-149.849180/OVINI
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>KARNO</Point>
       <Point>OVINI</Point>
+      <Point>ASOKI</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>TAF VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AROBA</Point>
-      <Point>KARNO</Point>
-      <Point>ASOKI</Point>
       <Point>TAVIS</Point>
       <Point>MOANA</Point>
       <Point>IDUTA</Point>
@@ -102,6 +89,7 @@
     </Symbol>
     <Label HasLeader="true">
       <Point>AROBA</Point>
+      <Point>KARNO</Point>
       <Point>ASOKI</Point>
       <Point>IDUTA</Point>
       <Point>OVINI</Point>
@@ -114,6 +102,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>KARNO</Point>
       <Point>DUBAK</Point>
       <Point>VEDRI</Point>
     </Symbol>
@@ -122,37 +111,27 @@
       <Point>FAA04</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>KARNO</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">KARNO/IAA04/FAA04/-173339.780-1493704.170</Line>
     <Line Pattern="Solid">DUBAK/KARNO</Line>
     <Line Pattern="Solid">VEDRI/KARNO</Line>
   </Map>
   <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-17.561050-149.617825" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>KARNO</Point>
       <Point>DUBAK</Point>
       <Point>VEDRI</Point>
       <Point>FAA04</Point>
-      <Point>KARNO</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="22 SIDs" Priority="1" CustomColourName="ProcDep" Center="-17.561050-149.617825">
     <Line Pattern="Dashed">
       <!--Rwy22 ARIT4W-->
-      -17.561050-149.617825/-17.564290-149.622330/ARITI
+      -17.561050-149.617825/-17.585360-149.653080/ARITI
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy22 BEBI4W-->
       -17.561050-149.617825/AA506/AA508/ONIDO/BEBIG
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy22 BEBI3W-->
-      -17.564290-149.622330/BEBIG/-17.687640-149.640410
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy22 IKEL3W-->
-      -17.564290-149.622330/IKELO/-17.246480-149.582950
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy22 IKEL4W-->
@@ -160,48 +139,33 @@
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy22 MOSM4W-->
-      -17.564290-149.622330/BOBIX/MOSMA
+      -17.585360-149.653080/BOBIX/MOSMA
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy22 ONID4W-->
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy22 ONID3W-->
-      -17.561050-149.617825/ONIDO/-17.564290-149.622330/-17.588100-149.656590/-17.693780-149.643720/ONIDO
-    </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy22 VAIT3W-->
-      -17.561050-149.617825/-17.693780-149.643720/-17.438890-149.685040/VAITE
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy22 VAIT4W-->
       AA502/AA503/VAITE
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>-17.564290-149.622330</Point>
+      <Point>-17.585360-149.653080</Point>
       <Point>ARITI</Point>
       <Point>AA506</Point>
       <Point>AA508</Point>
       <Point>ONIDO</Point>
       <Point>BEBIG</Point>
-      <Point>-17.687640-149.640410</Point>
-      <Point>IKELO</Point>
-      <Point>-17.246480-149.582950</Point>
       <Point>AA502</Point>
       <Point>AA505</Point>
+      <Point>IKELO</Point>
       <Point>BOBIX</Point>
       <Point>MOSMA</Point>
-      <Point>-17.588100-149.656590</Point>
-      <Point>-17.693780-149.643720</Point>
-      <Point>-17.438890-149.685040</Point>
-      <Point>VAITE</Point>
       <Point>AA503</Point>
+      <Point>VAITE</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>ARITI</Point>
       <Point>BEBIG</Point>
-      <Point>-17.687640-149.640410</Point>
-      <Point>-17.246480-149.582950</Point>
       <Point>IKELO</Point>
       <Point>MOSMA</Point>
       <Point>ONIDO</Point>
@@ -214,15 +178,23 @@
       AROBA/KARNO/OVINI/TAF VOR/MOANA
     </Line>
     <Line>
+      <!--Rwy22 AROB4T-->
+      KARNO/TAF VOR/TAVIS
+    </Line>
+    <Line>
       <!--Rwy22 ASOK3M-->
       ASOKI/TAVIS/MOANA
     </Line>
     <Line>
+      <!--Rwy22 ASOK4T-->
+    </Line>
+    <Line>
       <!--Rwy22 IDUT3M-->
-      IDUTA/TAF VOR
+      IDUTA/-17.597170-150.209880/TAF VOR/-17.451080-149.458690/MOANA
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>MOANA</Point>
+      <Point>TAVIS</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>TAF VOR</Point>
@@ -232,14 +204,16 @@
       <Point>KARNO</Point>
       <Point>OVINI</Point>
       <Point>ASOKI</Point>
-      <Point>TAVIS</Point>
       <Point>IDUTA</Point>
+      <Point>-17.597170-150.209880</Point>
+      <Point>-17.451080-149.458690</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>AROBA</Point>
       <Point>ASOKI</Point>
       <Point>IDUTA</Point>
       <Point>MOANA</Point>
+      <Point>TAVIS</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="22 RNP" Priority="1" Center="-17.545564-149.595386" CustomColourName="ProcArr">

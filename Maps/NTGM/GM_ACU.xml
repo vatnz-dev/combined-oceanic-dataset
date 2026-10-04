@@ -7,27 +7,26 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>AKARI</Point>
       <Point>AKUSA</Point>
       <Point>MAKOM</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>GM401</Point>
+      <Point>FGM11</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>AKARI</Point>
-    </Symbol>
-    <Line Pattern="Solid">AKARI/GM401/-163448.292-1433951.250</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">AKARI/FGM11/-163448.292-1433951.250</Line>
     <Line Pattern="Solid">AKUSA/AKARI</Line>
     <Line Pattern="Solid">MAKOM/GM403/AKUSA</Line>
   </Map>
   <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-16.580081-143.664236" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>AKARI</Point>
       <Point>AKUSA</Point>
       <Point>MAKOM</Point>
-      <Point>GM401</Point>
-      <Point>AKARI</Point>
+      <Point>FGM11</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="29 RNP" Priority="1" Center="-16.587039-143.653278" CustomColourName="ProcArr">
@@ -37,27 +36,26 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>IBUKI</Point>
       <Point>EGOVA</Point>
       <Point>MAKOM</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>GM402</Point>
+      <Point>FGM29</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>IBUKI</Point>
-    </Symbol>
-    <Line Pattern="Solid">IBUKI/GM402/-163513.340-1433911.801</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">IBUKI/FGM29/-163513.340-1433911.801</Line>
     <Line Pattern="Solid">EGOVA/IBUKI</Line>
     <Line Pattern="Solid">MAKOM/GM404/EGOVA</Line>
   </Map>
   <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-16.587039-143.653278" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>IBUKI</Point>
       <Point>EGOVA</Point>
       <Point>MAKOM</Point>
-      <Point>GM402</Point>
-      <Point>IBUKI</Point>
+      <Point>FGM29</Point>
     </Label>
   </Map>
 </Maps>

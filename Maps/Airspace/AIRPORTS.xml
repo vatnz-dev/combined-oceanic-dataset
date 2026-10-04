@@ -28,6 +28,7 @@
       <Point>ANYN</Point>
       <Point>AYBK</Point>
       <Point>AYGN</Point>
+      <Point>AYIQ</Point>
       <Point>AYKA</Point>
       <Point>AYMS</Point>
       <Point>NCAI</Point>
@@ -133,6 +134,7 @@
       <Point>NTTO</Point>
       <Point>NTTP</Point>
       <Point>NTTR</Point>
+      <Point>NTUU</Point>
       <Point>NTUV</Point>
       <Point>NVSA</Point>
       <Point>NVSC</Point>
@@ -199,6 +201,7 @@
       <Point Name="YN">ANYN</Point>
       <Point Name="BK">AYBK</Point>
       <Point Name="GN">AYGN</Point>
+      <Point Name="IQ">AYIQ</Point>
       <Point Name="KA">AYKA</Point>
       <Point Name="MS">AYMS</Point>
       <Point Name="AI">NCAI</Point>
@@ -304,6 +307,7 @@
       <Point Name="TO">NTTO</Point>
       <Point Name="TP">NTTP</Point>
       <Point Name="TR">NTTR</Point>
+      <Point Name="UU">NTUU</Point>
       <Point Name="UV">NTUV</Point>
       <Point Name="SA">NVSA</Point>
       <Point Name="SC">NVSC</Point>

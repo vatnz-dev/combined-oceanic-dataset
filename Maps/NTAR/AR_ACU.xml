@@ -31,7 +31,7 @@
       <Point>REKEK</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="27 RNP" Priority="1" Center="-22.435608-151.353897" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP" Priority="1" Center="-22.435542-151.354119" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>AR404</Point>
@@ -50,10 +50,10 @@
     <Symbol Type="SolidTriangle">
       <Point>RISKI</Point>
     </Symbol>
-    <Line Pattern="Solid">RISKI/AR402/AR404/-222608.189-1512114.029</Line>
+    <Line Pattern="Solid">RISKI/AR402/AR404/-222607.951-1512114.828</Line>
     <Line Pattern="Solid">RUXAR/AR406/AR408/RISKI</Line>
   </Map>
-  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-22.435608-151.353897" CustomColourName="ProcArr">
+  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-22.435542-151.354119" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>RUXAR</Point>
       <Point>AR402</Point>

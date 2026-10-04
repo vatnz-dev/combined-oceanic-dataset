@@ -74,7 +74,7 @@
     <!--NTAR-->
     <Runway Name="09/27">
       <Threshold Name="09" Position="-22.431653-151.367069" ExtendedCentrelineTrack="287.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="27" Position="-22.435608-151.353897" ExtendedCentrelineTrack="107.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="27" Position="-22.435542-151.354119" ExtendedCentrelineTrack="107.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--NTAT-->
     <Runway Name="03/21">
@@ -128,8 +128,8 @@
     </Runway>
     <!--NTTB-->
     <Runway Name="11/29">
-      <Threshold Name="11" Position="-16.440508-151.757061" ExtendedCentrelineTrack="304.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="29" Position="-16.448192-151.745475" ExtendedCentrelineTrack="124.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="11" Position="-16.440503-151.757067" ExtendedCentrelineTrack="304.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="29" Position="-16.448186-151.745478" ExtendedCentrelineTrack="124.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--NTTG-->
     <Runway Name="09/27">
@@ -158,8 +158,8 @@
     </Runway>
     <!--NTTR-->
     <Runway Name="07/25">
-      <Threshold Name="07" Position="-16.723606-151.472372" ExtendedCentrelineTrack="263.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="25" Position="-16.722253-151.459331" ExtendedCentrelineTrack="83.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="07" Position="-16.723597-151.472303" ExtendedCentrelineTrack="263.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="25" Position="-16.722264-151.459397" ExtendedCentrelineTrack="83.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--NZCI-->
     <Runway Name="05/23">

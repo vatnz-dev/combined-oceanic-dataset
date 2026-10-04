@@ -602,26 +602,24 @@
       <CFL QuickLevel="24500" />
       <ArrivalLists>
         <Airport Name="NZFX" />
+        <Airport Name="NZWD" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Williams Field Approach</Line>
         <Line>Class E SVC from SFC to FL245</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>ATIS may be available: WD 122.6 / FX 129.9</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_TWR">
-        <Line>Phoenix Tower - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Phoenix Tower - ATIS 129.9</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_GND">
-        <Line>Phoenix Ground - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Phoenix Ground - ATIS 129.9</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_DEL">
-        <Line>Phoenix Delivery - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Phoenix Delivery - ATIS 129.9</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
