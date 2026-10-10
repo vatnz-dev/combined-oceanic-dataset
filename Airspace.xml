@@ -343,6 +343,7 @@
     <Airport Name="NZFX">
       <Runway Name="15" DataRunway="15">
         <SID Name="BYRRD9" />
+        <SID Name="MNLSID" />
         <SID Name="NOBEY9" />
         <SID Name="ZELBA9" />
         <STAR Name="CRSTI1" />
@@ -351,10 +352,12 @@
         <STAR Name="GREES1" />
         <STAR Name="HEMAL1" />
         <STAR Name="HEMVI4" />
+        <STAR Name="MNLSTR" />
         <STAR Name="ZFX8" />
       </Runway>
       <Runway Name="33" DataRunway="33">
         <SID Name="BYRRD9" />
+        <SID Name="MNLSID" />
         <SID Name="NOBEY9" />
         <SID Name="ZELBA9" />
         <STAR Name="CRSTI1" />
@@ -363,12 +366,83 @@
         <STAR Name="GREES1" />
         <STAR Name="HEMAL1" />
         <STAR Name="HEMVI4" />
+        <STAR Name="MNLSTR" />
         <STAR Name="ZFX8" />
       </Runway>
     </Airport>
     <Airport Name="NZWD">
-      <Runway Name="07" DataRunway="07" />
-      <Runway Name="25" DataRunway="25" />
+      <Runway Name="07" DataRunway="07">
+        <SID Name="AFOSU1" />
+        <SID Name="AMBER1" />
+        <SID Name="ELLIO1" />
+        <SID Name="GRIFF8" />
+        <SID Name="IDURE1" />
+        <SID Name="KYSER1" />
+        <SID Name="MEENA7" />
+        <SID Name="MNLSID" />
+        <SID Name="SKYED1" />
+        <SID Name="WILLY3" />
+        <STAR Name="CNTRL5" />
+        <STAR Name="FARIG1" />
+        <STAR Name="FARIG2" />
+        <STAR Name="FARIG3" />
+        <STAR Name="FARIG4" />
+        <STAR Name="FARIG5" />
+        <STAR Name="FOMBA4" />
+        <STAR Name="FOMBA3" />
+        <STAR Name="FOMBA2" />
+        <STAR Name="FOMBA1" />
+        <STAR Name="HERUG1" />
+        <STAR Name="HERUG2" />
+        <STAR Name="HERUG3" />
+        <STAR Name="HILEX1" />
+        <STAR Name="MNLSTR" />
+        <STAR Name="MRRTY1" />
+        <STAR Name="MRRTY3" />
+        <STAR Name="MRRTY2" />
+        <STAR Name="WABAB2" />
+        <STAR Name="WABAB1" />
+        <STAR Name="ZWD5" />
+        <STAR Name="ZWD7" />
+        <STAR Name="ZWD8" />
+        <STAR Name="ZWD6" />
+      </Runway>
+      <Runway Name="25" DataRunway="25">
+        <SID Name="AFOSU1" />
+        <SID Name="AMBER1" />
+        <SID Name="ELLIO1" />
+        <SID Name="GRIFF8" />
+        <SID Name="IDURE1" />
+        <SID Name="KYSER1" />
+        <SID Name="MEENA7" />
+        <SID Name="MNLSID" />
+        <SID Name="SKYED1" />
+        <SID Name="WILLY3" />
+        <STAR Name="CNTRL5" />
+        <STAR Name="FARIG1" />
+        <STAR Name="FARIG2" />
+        <STAR Name="FARIG3" />
+        <STAR Name="FARIG4" />
+        <STAR Name="FARIG5" />
+        <STAR Name="FOMBA4" />
+        <STAR Name="FOMBA3" />
+        <STAR Name="FOMBA2" />
+        <STAR Name="FOMBA1" />
+        <STAR Name="HERUG1" />
+        <STAR Name="HERUG2" />
+        <STAR Name="HERUG3" />
+        <STAR Name="HILEX1" />
+        <STAR Name="MNLSTR" />
+        <STAR Name="MRRTY1" />
+        <STAR Name="MRRTY3" />
+        <STAR Name="MRRTY2" />
+        <STAR Name="WABAB2" />
+        <STAR Name="WABAB1" />
+        <STAR Name="ZWD5" />
+        <STAR Name="ZWD7" />
+        <STAR Name="ZWD8" />
+        <STAR Name="ZWD6" />
+      </Runway>
     </Airport>
   </SystemRunways>
   <Airways>
@@ -7874,6 +7948,7 @@ CH VOR
     <Point Name="YOGIT" Type="Fix">-375052.102+1751505.400</Point>
     <Point Name="YOSTY" Type="Fix">-774457.221+1661748.952</Point>
     <Point Name="YPONT" Type="Fix">-442947.101+1674858.201</Point>
+    <Point Name="YSWS" Type="Fix">-335327.000+1504306.000</Point>
     <Point Name="YTUNA" Type="Fix">-462454.749+1683538.191</Point>
     <Point Name="ZADMO" Type="Fix">-895304.549-1514148.548</Point>
     <Point Name="ZEDEE" Type="Fix">-352139.488+1735226.141</Point>
@@ -8296,6 +8371,12 @@ CH VOR
       <Route Runway="15">ZFX VOR/BYRRD</Route>
       <Route Runway="33">ZFX VOR/BYRRD</Route>
     </SID>
+    <SID Name="MNLSID" Airport="NZFX" Runways="15,33">
+      <Route Runway="15">ZFX VOR/NOBEY/BYRRD</Route>
+      <Route Runway="33">ZFX VOR/NOBEY/BYRRD</Route>
+      <Transition Name="JEHOO">RAPPY/JEHOO</Transition>
+      <Transition Name="LIBTI">LIBTI</Transition>
+    </SID>
     <SID Name="NOBEY9" Airport="NZFX" Runways="15,33">
       <Route Runway="15">ZFX VOR/NOBEY</Route>
       <Route Runway="33">ZFX VOR/NOBEY</Route>
@@ -8303,6 +8384,48 @@ CH VOR
     <SID Name="ZELBA9" Airport="NZFX" Runways="15,33">
       <Route Runway="15">ZFX VOR/JELOT/ZELBA</Route>
       <Route Runway="33">ZFX VOR/JELOT/ZELBA</Route>
+    </SID>
+    <SID Name="AFOSU1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/ESUBE/AFOSU</Route>
+      <Route Runway="25">ZWD VOR/ESUBE/AFOSU</Route>
+    </SID>
+    <SID Name="AMBER1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/BYRRD</Route>
+      <Route Runway="25">ZWD VOR/BYRRD</Route>
+    </SID>
+    <SID Name="ELLIO1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/ZELBA</Route>
+      <Route Runway="25">ZWD VOR/ZELBA</Route>
+    </SID>
+    <SID Name="GRIFF8" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/ZFX VOR/NOBEY</Route>
+      <Route Runway="25">ZWD VOR/ZFX VOR/NOBEY</Route>
+    </SID>
+    <SID Name="IDURE1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/HIDNI/IDURE</Route>
+      <Route Runway="25">ZWD VOR/HIDNI/IDURE</Route>
+    </SID>
+    <SID Name="KYSER1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/ZFX VOR/PINOE/JETOD/KYSER</Route>
+      <Route Runway="25">ZWD VOR/ZFX VOR/PINOE/JETOD/KYSER</Route>
+    </SID>
+    <SID Name="MEENA7" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/ZELBA</Route>
+      <Route Runway="25">ZWD VOR/ZELBA</Route>
+    </SID>
+    <SID Name="MNLSID" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/NOBEY/BYRRD</Route>
+      <Route Runway="25">ZWD VOR/NOBEY/BYRRD</Route>
+      <Transition Name="JEHOO">RAPPY/JEHOO</Transition>
+      <Transition Name="LIBTI">LIBTI</Transition>
+    </SID>
+    <SID Name="SKYED1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/REASE/SKYED</Route>
+      <Route Runway="25">ZWD VOR/REASE/SKYED</Route>
+    </SID>
+    <SID Name="WILLY3" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">ZWD VOR/HERUG</Route>
+      <Route Runway="25">ZWD VOR/HERUG</Route>
     </SID>
     <STAR Name="ANIV1A" Airport="NCRG" Runways="08">
       <Route Runway="08">ANIVA/OPUNA</Route>
@@ -8546,9 +8669,113 @@ CH VOR
       <Route Runway="15">JEHOO/RAPPY/HEMVI</Route>
       <Route Runway="33">JEHOO/RAPPY/HEMVI</Route>
     </STAR>
+    <STAR Name="MNLSTR" Airport="NZFX" Runways="15,33">
+      <Route Runway="15">BYRRD/NOBEY/ZFX VOR</Route>
+      <Route Runway="33">BYRRD/NOBEY/ZFX VOR</Route>
+      <Transition Name="JEHOO">JEHOO/RAPPY</Transition>
+      <Transition Name="LIBTI">LIBTI</Transition>
+    </STAR>
     <STAR Name="ZFX8" Airport="NZFX" Runways="15,33">
       <Route Runway="15">JEHOO/RAPPY/ZFX VOR</Route>
       <Route Runway="33">JEHOO/RAPPY/ZFX VOR</Route>
+    </STAR>
+    <STAR Name="CNTRL5" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">KYSER</Route>
+      <Route Runway="25">KYSER</Route>
+    </STAR>
+    <STAR Name="FARIG1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WAIS1/ZELBA/FARIG</Route>
+      <Route Runway="25">WAIS1/ZELBA/FARIG</Route>
+    </STAR>
+    <STAR Name="FARIG2" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WAIS1/SKYED/RULOE/ZELBA/FARIG</Route>
+      <Route Runway="25">WAIS1/SKYED/RULOE/ZELBA/FARIG</Route>
+    </STAR>
+    <STAR Name="FARIG3" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">RULOE/ZELBA/FARIG</Route>
+      <Route Runway="25">RULOE/ZELBA/FARIG</Route>
+    </STAR>
+    <STAR Name="FARIG4" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">SARBE/RULOE/ZELBA/FARIG</Route>
+      <Route Runway="25">SARBE/RULOE/ZELBA/FARIG</Route>
+    </STAR>
+    <STAR Name="FARIG5" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WIKAL/RULOE/ZELBA/FARIG</Route>
+      <Route Runway="25">WIKAL/RULOE/ZELBA/FARIG</Route>
+    </STAR>
+    <STAR Name="FOMBA4" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WIKAL/RULOE/ZELBA/FOMBA</Route>
+      <Route Runway="25">WIKAL/RULOE/ZELBA/FOMBA</Route>
+    </STAR>
+    <STAR Name="FOMBA3" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">SARBE/RULOE/ZELBA/FOMBA</Route>
+      <Route Runway="25">SARBE/RULOE/ZELBA/FOMBA</Route>
+    </STAR>
+    <STAR Name="FOMBA2" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">RULOE/ZELBA/FOMBA</Route>
+      <Route Runway="25">RULOE/ZELBA/FOMBA</Route>
+    </STAR>
+    <STAR Name="FOMBA1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WAIS1/SKYED/RULOE/ZELBA/FOMBA</Route>
+      <Route Runway="25">WAIS1/SKYED/RULOE/ZELBA/FOMBA</Route>
+    </STAR>
+    <STAR Name="HERUG1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WABAB/HERUG</Route>
+      <Route Runway="25">WABAB/HERUG</Route>
+    </STAR>
+    <STAR Name="HERUG2" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WABAB/HERUG</Route>
+      <Route Runway="25">WABAB/HERUG</Route>
+    </STAR>
+    <STAR Name="HERUG3" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">JEHOO/RAPPY/NOBEY/HERUG</Route>
+      <Route Runway="25">JEHOO/RAPPY/NOBEY/HERUG</Route>
+    </STAR>
+    <STAR Name="HILEX1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WAIS1/ZELBA/HILEX</Route>
+      <Route Runway="25">WAIS1/ZELBA/HILEX</Route>
+    </STAR>
+    <STAR Name="MNLSTR" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">BYRRD/NOBEY/ZWD VOR</Route>
+      <Route Runway="25">BYRRD/NOBEY/ZWD VOR</Route>
+      <Transition Name="JEHOO">JEHOO/RAPPY</Transition>
+      <Transition Name="LIBTI">LIBTI</Transition>
+    </STAR>
+    <STAR Name="MRRTY1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WABAB/MRRTY</Route>
+      <Route Runway="25">WABAB/MRRTY</Route>
+    </STAR>
+    <STAR Name="MRRTY3" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">JEHOO/RAPPY/NOBEY/MRRTY</Route>
+      <Route Runway="25">JEHOO/RAPPY/NOBEY/MRRTY</Route>
+    </STAR>
+    <STAR Name="MRRTY2" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WABAB/MRRTY</Route>
+      <Route Runway="25">WABAB/MRRTY</Route>
+    </STAR>
+    <STAR Name="WABAB2" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WABAB</Route>
+      <Route Runway="25">WABAB</Route>
+    </STAR>
+    <STAR Name="WABAB1" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WABAB</Route>
+      <Route Runway="25">WABAB</Route>
+    </STAR>
+    <STAR Name="ZWD5" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WABAB/HERUG/ZWD VOR</Route>
+      <Route Runway="25">WABAB/HERUG/ZWD VOR</Route>
+    </STAR>
+    <STAR Name="ZWD7" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">JEHOO/RAPPY/NOBEY/ZWD VOR</Route>
+      <Route Runway="25">JEHOO/RAPPY/NOBEY/ZWD VOR</Route>
+    </STAR>
+    <STAR Name="ZWD8" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WAIS1/ZELBA/ZWD VOR</Route>
+      <Route Runway="25">WAIS1/ZELBA/ZWD VOR</Route>
+    </STAR>
+    <STAR Name="ZWD6" Airport="NZWD" Runways="07,25">
+      <Route Runway="07">WABAB/HERUG/ZWD VOR</Route>
+      <Route Runway="25">WABAB/HERUG/ZWD VOR</Route>
     </STAR>
     <Approach Name="RNP-ARW" Airport="NCRG" Runway="08">
       <Transition Name="RAKIA">RAKIA</Transition>
