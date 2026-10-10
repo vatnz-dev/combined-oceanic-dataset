@@ -61,9 +61,8 @@
       <CFL QuickLevel="25000" />
       <ArrivalLists />
       <ControllerInfo>
-        <Line>Auckland Control (Tasman) | OPR as a RADAR Sector</Line>
-        <Line>Read WorldFlight Brief: vats.im/nz/wf-gen</Line>
-        <Line>Comms via VHF 129.55. SURV via ADSB - Nil Pos. Rpts REQ</Line>
+        <Line>Auckland Radio (Tasman) | CPDLC available through text</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
