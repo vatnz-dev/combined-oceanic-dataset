@@ -61,9 +61,8 @@
       <CFL QuickLevel="25000" />
       <ArrivalLists />
       <ControllerInfo>
-        <Line>Auckland Control (Tasman) | OPR as a RADAR Sector</Line>
-        <Line>Read WorldFlight Brief: vats.im/nz/wf-gen</Line>
-        <Line>Comms via VHF 129.55. SURV via ADSB - Nil Pos. Rpts REQ</Line>
+        <Line>Auckland Radio (Tasman) | CPDLC available through text</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
@@ -99,37 +98,9 @@
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-711936.000+1674616.000" DefaultRange="4500">
-      <Sectors>
-        <Sector Name="MAC" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-68.643611+166.451944</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="Coast" />
-        <Map Name="Airspace/ENR Sectors" />
-        <Map Name="Airspace/TMA Sectors" />
-        <Map Name="Airspace/FIR Boundaries" />
-        <Map Name="Navaids/NDB" />
-        <Map Name="Navaids/VOR" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="31000" />
-      <ArrivalLists />
-      <ControllerInfo>
-        <Line>MacMurdo Centre (FSS) - "Mac" | CPDLC available through text</Line>
-        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
-        <Line>Submit feedback - vats.im/nz/atc-fb</Line>
-      </ControllerInfo>
-    </Position>
   </Group>
-  <Group Name="French Poly.">
-    <Position Name="Tahiti Oceanic" Type="ASD" DefaultCenter="-144925.000-1382246.000" DefaultRange="6000">
+  <Group Name="Tahiti">
+    <Position Name="Tahiti Oceanic" Type="ASD" DefaultCenter="-144925.000-1382246.000" DefaultRange="4000">
       <Sectors>
         <Sector Name="NTTT" />
       </Sectors>
@@ -197,6 +168,10 @@
         <Map Name="Runways" />
         <Map Name="CTA" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NTAA" Frequency="128.800" />
+        <Window Airport="NTAA" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -228,6 +203,10 @@
         <Map Name="Runways" />
         <Map Name="CTA" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NTAA" Frequency="128.800" />
+        <Window Airport="NTAA" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -263,6 +242,10 @@
         <Map Name="Runways" />
         <Map Name="CTA" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NTTM" Frequency="118.400" />
+        <Window Airport="NTTM" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -270,7 +253,6 @@
       </Strips>
       <CFL QuickLevel="19500" />
       <ArrivalLists>
-        <Airport Name="NTAA" />
         <Airport Name="NTTM" />
       </ArrivalLists>
       <ControllerInfo>
@@ -293,6 +275,10 @@
         <Map Name="Runways" />
         <Map Name="CTA" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NTTB" Frequency="121.500" />
+        <Window Airport="NTTB" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -322,6 +308,10 @@
         <Map Name="Runways" />
         <Map Name="CTA" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NTTR" Frequency="119.600" />
+        <Window Airport="NTTR" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -355,6 +345,10 @@
         <Map Name="Airspace/Aerodromes" />
         <Map Name="Runways" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NFTF" Frequency="121.900" />
+        <Window Airport="NFTF" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -390,7 +384,12 @@
         <Map Name="Navaids/VOR" />
         <Map Name="Airspace/Aerodromes" />
         <Map Name="Runways" />
+        <Map Name="CTA" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NIUE" Frequency="127.500" />
+        <Window Airport="NIUE" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -402,7 +401,7 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Niue Flight Information Service</Line>
-        <Line>Information and IFR Relay - Nil Control avail.</Line>
+        <Line>Information and IFR Relay - Nil Control avail</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
@@ -457,6 +456,10 @@
         <Map Name="Airspace/Aerodromes" />
         <Map Name="Runways" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NSFA" Frequency="126.900" />
+        <Window Airport="NSFA" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -490,6 +493,10 @@
         <Map Name="Airspace/Aerodromes" />
         <Map Name="Runways" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NSTU" Frequency="127.900" />
+        <Window Airport="NSTU" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -556,6 +563,10 @@
         <Map Name="Airspace/Aerodromes" />
         <Map Name="Runways" />
       </Maps>
+      <ATIS>
+        <Editor Airport="NCRG" Frequency="121.900" />
+        <Window Airport="NCRG" />
+      </ATIS>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -578,6 +589,34 @@
     </Position>
   </Group>
   <Group Name="Antarctica">
+    <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-711936.000+1674616.000" DefaultRange="4500">
+      <Sectors>
+        <Sector Name="MAC" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-68.643611+166.451944</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="31000" />
+      <ArrivalLists />
+      <ControllerInfo>
+        <Line>MacMurdo Centre (FSS) - "Mac" | CPDLC available through text</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
+        <Line>Submit feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Williams Approach" Type="ASD" DefaultCenter="-772648.000+1665120.000" DefaultRange="250">
       <Sectors>
         <Sector Name="WDTMA" />
@@ -602,26 +641,24 @@
       <CFL QuickLevel="24500" />
       <ArrivalLists>
         <Airport Name="NZFX" />
+        <Airport Name="NZWD" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Williams Field Approach</Line>
         <Line>Class E SVC from SFC to FL245</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>ATIS may be available - WD 122.6 / FX 129.9</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_TWR">
-        <Line>Phoenix Tower - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Phoenix Tower - ATIS 129.9</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_GND">
-        <Line>Phoenix Ground - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Phoenix Ground - ATIS 129.9</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_DEL">
-        <Line>Phoenix Delivery - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Phoenix Delivery - ATIS 129.9</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>

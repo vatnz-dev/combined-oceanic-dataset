@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="Manual SID" Priority="1" CustomColourName="ProcDep" Center="-77.944206+166.722467">
+    <Line Pattern="Dashed">
+      ZFX VOR/NOBEY/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      ZWD VOR/NOBEY
+    </Line>
+    <Line Pattern="Dashed">
+      BYRRD/RAPPY/JEHOO
+    </Line>
+    <Line Pattern="Dashed">
+      BYRRD/LIBTI
+    </Line>
+    <Symbol Type="Circle">
+      <Point>ZFX VOR</Point>
+      <Point>ZWD VOR</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>NOBEY</Point>
+      <Point>RAPPY</Point>
+      <Point>LIBTI</Point>
+      <Point>BYRRD</Point>
+      <Point>JEHOO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BYRRD</Point>
+      <Point>NOBEY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+      <Point>ZWD VOR</Point>
+    </Label>
+
+    <Label LabelOrientation="SW">
+      <Point>ZFX VOR</Point>
+      <Point>RAPPY</Point>
+    </Label>
+  </Map>
+
+  <Map Type="System2" Name="Manual STAR" Priority="1" CustomColourName="ProcDep" Center="-77.944206+166.722467">
+    <Line Pattern="Solid">JEHOO/RAPPY/BYRRD</Line>
+    <Line Pattern="Solid">LIBTI/BYRRD</Line>
+    <Line Pattern="Solid">BYRRD/NOBEY/ZFX VOR</Line>
+    <Line Pattern="Solid">NOBEY/ZWD VOR</Line>
+    <Symbol Type="Circle">
+      <Point>ZFX VOR</Point>
+      <Point>ZWD VOR</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>NOBEY</Point>
+      <Point>RAPPY</Point>
+      <Point>LIBTI</Point>
+      <Point>BYRRD</Point>
+      <Point>JEHOO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BYRRD</Point>
+      <Point>NOBEY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+      <Point>ZWD VOR</Point>
+    </Label>
+
+    <Label LabelOrientation="SW">
+      <Point>ZFX VOR</Point>
+      <Point>RAPPY</Point>
+    </Label>
+  </Map>
+</Maps>

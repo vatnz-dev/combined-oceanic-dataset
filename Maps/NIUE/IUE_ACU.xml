@@ -11,11 +11,11 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>UE901</Point>
+      <Point>VIMAX</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">MEGUD/UE901/-190431.411-1695610.252</Line>
+    <Line Pattern="Solid">MEGUD/VIMAX/-190431.411-1695610.252</Line>
     <Line Pattern="Solid">APABU/MEGUD</Line>
     <Line Pattern="Solid">IBVON/MEGUD</Line>
   </Map>
@@ -24,7 +24,7 @@
       <Point>MEGUD</Point>
       <Point>APABU</Point>
       <Point>IBVON</Point>
-      <Point>UE901</Point>
+      <Point>VIMAX</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="28 RNP" Priority="1" Center="-19.082547-169.915303" CustomColourName="ProcArr">
@@ -38,11 +38,11 @@
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>UE928</Point>
+      <Point>SUNUK</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">GUGAG/UE928/-190457.169-1695455.091</Line>
+    <Line Pattern="Solid">GUGAG/SUNUK/-190457.169-1695455.091</Line>
     <Line Pattern="Solid">EXOPU/GUGAG</Line>
     <Line Pattern="Solid">IBADO/GUGAG</Line>
   </Map>
@@ -51,7 +51,7 @@
       <Point>GUGAG</Point>
       <Point>EXOPU</Point>
       <Point>IBADO</Point>
-      <Point>UE928</Point>
+      <Point>SUNUK</Point>
     </Label>
   </Map>
 </Maps>

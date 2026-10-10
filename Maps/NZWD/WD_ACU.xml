@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="07 SIDs" Priority="1" CustomColourName="ProcDep" Center="-77.894072+167.014036">
+    <Line Pattern="Dashed">
+      <!--Rwy07 AFOSU1-->
+      -77.894072+167.014036/ZWD VOR/ESUBE/AFOSU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 AMBER1-->
+      ZWD VOR/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 ELLIO1-->
+      ZWD VOR/ZELBA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 GRIFF8-->
+      ZWD VOR/ZFX VOR/NOBEY
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 IDURE1-->
+      ZWD VOR/HIDNI/IDURE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 KYSER1-->
+      ZFX VOR/PINOE/JETOD/KYSER
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 MEENA7-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 MNLSID-->
+      ZWD VOR/NOBEY/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 MNLSID.JEHOO-->
+      BYRRD/RAPPY/JEHOO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 MNLSID.LIBTI-->
+      BYRRD/LIBTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 SKYED1-->
+      ZWD VOR/REASE/SKYED
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy07 WILLY3-->
+      ZWD VOR/HERUG
+    </Line>
+    <Symbol Type="Circle">
+      <Point>ZWD VOR</Point>
+      <Point>ZFX VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ESUBE</Point>
+      <Point>AFOSU</Point>
+      <Point>BYRRD</Point>
+      <Point>ZELBA</Point>
+      <Point>NOBEY</Point>
+      <Point>HIDNI</Point>
+      <Point>IDURE</Point>
+      <Point>PINOE</Point>
+      <Point>JETOD</Point>
+      <Point>KYSER</Point>
+      <Point>RAPPY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+      <Point>REASE</Point>
+      <Point>SKYED</Point>
+      <Point>HERUG</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>AFOSU</Point>
+      <Point>BYRRD</Point>
+      <Point>ZELBA</Point>
+      <Point>NOBEY</Point>
+      <Point>IDURE</Point>
+      <Point>KYSER</Point>
+      <Point>SKYED</Point>
+      <Point>HERUG</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-77.889478+167.142297">
+    <Line>
+      <!--Rwy07 CNTRL5-->
+      -78.526210+166.140370/KYSER
+    </Line>
+    <Line>
+      <!--Rwy07 FARIG1-->
+      WAIS1/ZELBA/FARIG
+    </Line>
+    <Line>
+      <!--Rwy07 FARIG2-->
+      WAIS1/SKYED/RULOE/ZELBA
+    </Line>
+    <Line>
+      <!--Rwy07 FARIG3-->
+      -79.483330+169.083330/RULOE
+    </Line>
+    <Line>
+      <!--Rwy07 FARIG4-->
+      -79.483330+169.083330/SARBE/RULOE
+    </Line>
+    <Line>
+      <!--Rwy07 FARIG5-->
+      -79.450000+164.583330/WIKAL/RULOE
+    </Line>
+    <Line>
+      <!--Rwy07 FOMBA4-->
+      ZELBA/FOMBA
+    </Line>
+    <Line>
+      <!--Rwy07 FOMBA3-->
+      -79.566670+166.833330/SARBE
+    </Line>
+    <Line>
+      <!--Rwy07 FOMBA2-->
+    </Line>
+    <Line>
+      <!--Rwy07 FOMBA1-->
+    </Line>
+    <Line>
+      <!--Rwy07 HERUG1-->
+      -79.566670+166.833330/-78.250000+164.000000/WABAB/HERUG
+    </Line>
+    <Line>
+      <!--Rwy07 HERUG2-->
+      -79.450000+164.583330/-78.250000+164.000000
+    </Line>
+    <Line>
+      <!--Rwy07 HERUG3-->
+      JEHOO/RAPPY/NOBEY/HERUG
+    </Line>
+    <Line>
+      <!--Rwy07 HILEX1-->
+      ZELBA/HILEX
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy07 MNLSTR.JEHOO-->
+      JEHOO/RAPPY/BYRRD
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy07 MNLSTR.LIBTI-->
+      LIBTI/BYRRD
+    </Line>
+    <Line>
+      <!--Rwy07 MNLSTR-->
+      BYRRD/NOBEY/ZWD VOR
+    </Line>
+    <Line>
+      <!--Rwy07 MRRTY1-->
+      WABAB/MRRTY
+    </Line>
+    <Line>
+      <!--Rwy07 MRRTY3-->
+      NOBEY/MRRTY
+    </Line>
+    <Line>
+      <!--Rwy07 MRRTY2-->
+    </Line>
+    <Line>
+      <!--Rwy07 WABAB2-->
+    </Line>
+    <Line>
+      <!--Rwy07 WABAB1-->
+    </Line>
+    <Line>
+      <!--Rwy07 ZWD5-->
+      HERUG/ZWD VOR
+    </Line>
+    <Line>
+      <!--Rwy07 ZWD7-->
+    </Line>
+    <Line>
+      <!--Rwy07 ZWD8-->
+      ZELBA/ZWD VOR
+    </Line>
+    <Line>
+      <!--Rwy07 ZWD6-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KYSER</Point>
+      <Point>FARIG</Point>
+      <Point>FOMBA</Point>
+      <Point>HERUG</Point>
+      <Point>HILEX</Point>
+      <Point>NOBEY</Point>
+      <Point>MRRTY</Point>
+      <Point>WABAB</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>ZWD VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>WAIS1</Point>
+      <Point>ZELBA</Point>
+      <Point>SKYED</Point>
+      <Point>RULOE</Point>
+      <Point>SARBE</Point>
+      <Point>WIKAL</Point>
+      <Point>JEHOO</Point>
+      <Point>RAPPY</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>WAIS1</Point>
+      <Point>JEHOO</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
+      <Point>KYSER</Point>
+      <Point>FARIG</Point>
+      <Point>FOMBA</Point>
+      <Point>HERUG</Point>
+      <Point>HILEX</Point>
+      <Point>NOBEY</Point>
+      <Point>MRRTY</Point>
+      <Point>WABAB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="25 SIDs" Priority="1" CustomColourName="ProcDep" Center="-77.889478+167.142297">
+    <Line Pattern="Dashed">
+      <!--Rwy25 AFOSU1-->
+      -77.889478+167.142297/ZWD VOR/ESUBE/AFOSU
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 AMBER1-->
+      ZWD VOR/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 ELLIO1-->
+      ZWD VOR/ZELBA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 GRIFF8-->
+      ZWD VOR/ZFX VOR/NOBEY
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 IDURE1-->
+      ZWD VOR/HIDNI/IDURE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 KYSER1-->
+      ZFX VOR/PINOE/JETOD/KYSER
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MEENA7-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MNLSID-->
+      ZWD VOR/NOBEY/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MNLSID.JEHOO-->
+      BYRRD/RAPPY/JEHOO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 MNLSID.LIBTI-->
+      BYRRD/LIBTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 SKYED1-->
+      ZWD VOR/REASE/SKYED
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy25 WILLY3-->
+      ZWD VOR/HERUG
+    </Line>
+    <Symbol Type="Circle">
+      <Point>ZWD VOR</Point>
+      <Point>ZFX VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>ESUBE</Point>
+      <Point>AFOSU</Point>
+      <Point>BYRRD</Point>
+      <Point>ZELBA</Point>
+      <Point>NOBEY</Point>
+      <Point>HIDNI</Point>
+      <Point>IDURE</Point>
+      <Point>PINOE</Point>
+      <Point>JETOD</Point>
+      <Point>KYSER</Point>
+      <Point>RAPPY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+      <Point>REASE</Point>
+      <Point>SKYED</Point>
+      <Point>HERUG</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>AFOSU</Point>
+      <Point>BYRRD</Point>
+      <Point>ZELBA</Point>
+      <Point>NOBEY</Point>
+      <Point>IDURE</Point>
+      <Point>KYSER</Point>
+      <Point>SKYED</Point>
+      <Point>HERUG</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-77.894072+167.014036">
+    <Line>
+      <!--Rwy25 CNTRL5-->
+      -78.526210+166.140370/KYSER
+    </Line>
+    <Line>
+      <!--Rwy25 FARIG1-->
+      WAIS1/ZELBA/FARIG
+    </Line>
+    <Line>
+      <!--Rwy25 FARIG2-->
+      WAIS1/SKYED/RULOE/ZELBA
+    </Line>
+    <Line>
+      <!--Rwy25 FARIG3-->
+      -79.483330+169.083330/RULOE
+    </Line>
+    <Line>
+      <!--Rwy25 FARIG4-->
+      -79.483330+169.083330/SARBE/RULOE
+    </Line>
+    <Line>
+      <!--Rwy25 FARIG5-->
+      -79.450000+164.583330/WIKAL/RULOE
+    </Line>
+    <Line>
+      <!--Rwy25 FOMBA4-->
+      ZELBA/FOMBA
+    </Line>
+    <Line>
+      <!--Rwy25 FOMBA3-->
+      -79.566670+166.833330/SARBE
+    </Line>
+    <Line>
+      <!--Rwy25 FOMBA2-->
+    </Line>
+    <Line>
+      <!--Rwy25 FOMBA1-->
+    </Line>
+    <Line>
+      <!--Rwy25 HERUG1-->
+      -79.566670+166.833330/-78.250000+164.000000/WABAB/HERUG
+    </Line>
+    <Line>
+      <!--Rwy25 HERUG2-->
+      -79.450000+164.583330/-78.250000+164.000000
+    </Line>
+    <Line>
+      <!--Rwy25 HERUG3-->
+      JEHOO/RAPPY/NOBEY/HERUG
+    </Line>
+    <Line>
+      <!--Rwy25 HILEX1-->
+      ZELBA/HILEX
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy25 MNLSTR.JEHOO-->
+      JEHOO/RAPPY/BYRRD
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy25 MNLSTR.LIBTI-->
+      LIBTI/BYRRD
+    </Line>
+    <Line>
+      <!--Rwy25 MNLSTR-->
+      BYRRD/NOBEY/ZWD VOR
+    </Line>
+    <Line>
+      <!--Rwy25 MRRTY1-->
+      WABAB/MRRTY
+    </Line>
+    <Line>
+      <!--Rwy25 MRRTY3-->
+      NOBEY/MRRTY
+    </Line>
+    <Line>
+      <!--Rwy25 MRRTY2-->
+    </Line>
+    <Line>
+      <!--Rwy25 WABAB2-->
+    </Line>
+    <Line>
+      <!--Rwy25 WABAB1-->
+    </Line>
+    <Line>
+      <!--Rwy25 ZWD5-->
+      HERUG/ZWD VOR
+    </Line>
+    <Line>
+      <!--Rwy25 ZWD7-->
+    </Line>
+    <Line>
+      <!--Rwy25 ZWD8-->
+      ZELBA/ZWD VOR
+    </Line>
+    <Line>
+      <!--Rwy25 ZWD6-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KYSER</Point>
+      <Point>FARIG</Point>
+      <Point>FOMBA</Point>
+      <Point>HERUG</Point>
+      <Point>HILEX</Point>
+      <Point>NOBEY</Point>
+      <Point>MRRTY</Point>
+      <Point>WABAB</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>ZWD VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>WAIS1</Point>
+      <Point>ZELBA</Point>
+      <Point>SKYED</Point>
+      <Point>RULOE</Point>
+      <Point>SARBE</Point>
+      <Point>WIKAL</Point>
+      <Point>JEHOO</Point>
+      <Point>RAPPY</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>WAIS1</Point>
+      <Point>JEHOO</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
+      <Point>KYSER</Point>
+      <Point>FARIG</Point>
+      <Point>FOMBA</Point>
+      <Point>HERUG</Point>
+      <Point>HILEX</Point>
+      <Point>NOBEY</Point>
+      <Point>MRRTY</Point>
+      <Point>WABAB</Point>
+    </Label>
+  </Map>
+</Maps>

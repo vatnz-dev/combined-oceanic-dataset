@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="15 SIDs" Priority="1" CustomColourName="ProcDep" Center="-77.944206+166.722467">
+    <Line Pattern="Dashed">
+      <!--Rwy15 BYRRD9-->
+      -77.944206+166.722467/ZFX VOR/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 MNLSID-->
+      ZFX VOR/NOBEY/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 MNLSID.JEHOO-->
+      BYRRD/RAPPY/JEHOO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 MNLSID.LIBTI-->
+      BYRRD/LIBTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 NOBEY9-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy15 ZELBA9-->
+      ZFX VOR/JELOT/ZELBA
+    </Line>
+    <Symbol Type="Circle">
+      <Point>ZFX VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BYRRD</Point>
+      <Point>NOBEY</Point>
+      <Point>RAPPY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+      <Point>JELOT</Point>
+      <Point>ZELBA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BYRRD</Point>
+      <Point>NOBEY</Point>
+      <Point>ZELBA</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="15 STARs" Priority="1" CustomColourName="ProcArr" Center="-77.970097+166.764047">
+    <Line>
+      <!--Rwy15 CRSTI1-->
+      -79.450000+164.583330/CRSTI
+    </Line>
+    <Line>
+      <!--Rwy15 FABOS1-->
+      -79.566670+166.833330/FABOS
+    </Line>
+    <Line>
+      <!--Rwy15 FAVGU4-->
+      JEHOO/RAPPY/FAVGU
+    </Line>
+    <Line>
+      <!--Rwy15 GREES1-->
+      -79.483330+169.083330/GREES
+    </Line>
+    <Line>
+      <!--Rwy15 HEMAL1-->
+      WAIS1/HEMAL
+    </Line>
+    <Line>
+      <!--Rwy15 HEMVI4-->
+      RAPPY/HEMVI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy15 MNLSTR.JEHOO-->
+      JEHOO/RAPPY/BYRRD
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy15 MNLSTR.LIBTI-->
+      LIBTI/BYRRD
+    </Line>
+    <Line>
+      <!--Rwy15 MNLSTR-->
+      BYRRD/NOBEY/ZFX VOR
+    </Line>
+    <Line>
+      <!--Rwy15 ZFX8-->
+      RAPPY/ZFX VOR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>CRSTI</Point>
+      <Point>FABOS</Point>
+      <Point>FAVGU</Point>
+      <Point>GREES</Point>
+      <Point>HEMAL</Point>
+      <Point>HEMVI</Point>
+      <Point>NOBEY</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>ZFX VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>JEHOO</Point>
+      <Point>RAPPY</Point>
+      <Point>WAIS1</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>JEHOO</Point>
+      <Point>WAIS1</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
+      <Point>CRSTI</Point>
+      <Point>FABOS</Point>
+      <Point>FAVGU</Point>
+      <Point>GREES</Point>
+      <Point>HEMAL</Point>
+      <Point>HEMVI</Point>
+      <Point>NOBEY</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="33 SIDs" Priority="1" CustomColourName="ProcDep" Center="-77.970097+166.764047">
+    <Line Pattern="Dashed">
+      <!--Rwy33 BYRRD9-->
+      -77.970097+166.764047/ZFX VOR/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 MNLSID-->
+      ZFX VOR/NOBEY/BYRRD
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 MNLSID.JEHOO-->
+      BYRRD/RAPPY/JEHOO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 MNLSID.LIBTI-->
+      BYRRD/LIBTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 NOBEY9-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy33 ZELBA9-->
+      ZFX VOR/JELOT/ZELBA
+    </Line>
+    <Symbol Type="Circle">
+      <Point>ZFX VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BYRRD</Point>
+      <Point>NOBEY</Point>
+      <Point>RAPPY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+      <Point>JELOT</Point>
+      <Point>ZELBA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BYRRD</Point>
+      <Point>NOBEY</Point>
+      <Point>ZELBA</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="33 STARs" Priority="1" CustomColourName="ProcArr" Center="-77.944206+166.722467">
+    <Line>
+      <!--Rwy33 CRSTI1-->
+      -79.450000+164.583330/CRSTI
+    </Line>
+    <Line>
+      <!--Rwy33 FABOS1-->
+      -79.566670+166.833330/FABOS
+    </Line>
+    <Line>
+      <!--Rwy33 FAVGU4-->
+      JEHOO/RAPPY/FAVGU
+    </Line>
+    <Line>
+      <!--Rwy33 GREES1-->
+      -79.483330+169.083330/GREES
+    </Line>
+    <Line>
+      <!--Rwy33 HEMAL1-->
+      WAIS1/HEMAL
+    </Line>
+    <Line>
+      <!--Rwy33 HEMVI4-->
+      RAPPY/HEMVI
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy33 MNLSTR.JEHOO-->
+      JEHOO/RAPPY/BYRRD
+    </Line>
+    <Line Pattern="Solid">
+      <!--Rwy33 MNLSTR.LIBTI-->
+      LIBTI/BYRRD
+    </Line>
+    <Line>
+      <!--Rwy33 MNLSTR-->
+      BYRRD/NOBEY/ZFX VOR
+    </Line>
+    <Line>
+      <!--Rwy33 ZFX8-->
+      RAPPY/ZFX VOR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>CRSTI</Point>
+      <Point>FABOS</Point>
+      <Point>FAVGU</Point>
+      <Point>GREES</Point>
+      <Point>HEMAL</Point>
+      <Point>HEMVI</Point>
+      <Point>NOBEY</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>ZFX VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>JEHOO</Point>
+      <Point>RAPPY</Point>
+      <Point>WAIS1</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>JEHOO</Point>
+      <Point>WAIS1</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
+      <Point>CRSTI</Point>
+      <Point>FABOS</Point>
+      <Point>FAVGU</Point>
+      <Point>GREES</Point>
+      <Point>HEMAL</Point>
+      <Point>HEMVI</Point>
+      <Point>NOBEY</Point>
+    </Label>
+  </Map>
+</Maps>

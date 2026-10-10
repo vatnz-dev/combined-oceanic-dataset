@@ -11,6 +11,7 @@
       <Point>GRUPY</Point>
       <Point>DRAWN</Point>
       <Point>SETTS</Point>
+      <Point>TUT VOR</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
@@ -21,12 +22,14 @@
     <Line Pattern="Solid">GRUPY/BLUJA/CAXEB/HOPID/-142020.890-1704322.000</Line>
     <Line Pattern="Solid">DRAWN/GRUPY</Line>
     <Line Pattern="Solid">SETTS/GRUPY</Line>
+    <Line Pattern="Solid">TUT VOR/GRUPY</Line>
   </Map>
   <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-14.339136-170.722778" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>GRUPY</Point>
       <Point>DRAWN</Point>
       <Point>SETTS</Point>
+      <Point>TUT VOR</Point>
       <Point>BLUJA</Point>
     </Label>
   </Map>
@@ -39,6 +42,7 @@
     <Symbol Type="HollowTriangle">
       <Point>HUMTU</Point>
       <Point>SUMLE</Point>
+      <Point>TUT VOR</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
@@ -48,11 +52,13 @@
     <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">HUMTU/NOTSE/WUTEB/-141940.372-1704209.580</Line>
     <Line Pattern="Solid">SUMLE/HUMTU</Line>
+    <Line Pattern="Solid">TUT VOR/HUMTU</Line>
   </Map>
   <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-14.327881-170.702661" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>HUMTU</Point>
       <Point>SUMLE</Point>
+      <Point>TUT VOR</Point>
       <Point>NOTSE</Point>
     </Label>
   </Map>

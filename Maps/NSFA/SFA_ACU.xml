@@ -61,6 +61,10 @@
   </Map>
   <Map Type="System2" Name="08 STARs" Priority="1" CustomColourName="ProcArr" Center="-13.830214-172.022278">
     <Line>
+      <!--Rwy08 AROX2A-->
+      AROXA/-14.046714-172.082703/-13.832147-172.198411
+    </Line>
+    <Line>
       <!--Rwy08 AVKO1B-->
       AVKOL/TAFUA
     </Line>
@@ -101,6 +105,10 @@
       LAVEK/FA812/DINAR
     </Line>
     <Line>
+      <!--Rwy08 ODUM2A-->
+      ODUMA/-13.932081-172.208419/-13.832147-172.198411
+    </Line>
+    <Line>
       <!--Rwy08 ODUM2B-->
       ODUMA/TAFUA
     </Line>
@@ -125,6 +133,10 @@
       SAMVU/FA812
     </Line>
     <Line>
+      <!--Rwy08 UVUT2A-->
+      UVUTI/-13.917131-172.215225/-13.832147-172.198411
+    </Line>
+    <Line>
       <!--Rwy08 UVUT2B-->
       UVUTI/TAFUA
     </Line>
@@ -138,6 +150,9 @@
       <Point>SHMPA</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>AROXA</Point>
+      <Point>-14.046714-172.082703</Point>
+      <Point>-13.832147-172.198411</Point>
       <Point>AVKOL</Point>
       <Point>BIGEK</Point>
       <Point>FA818</Point>
@@ -146,11 +161,14 @@
       <Point>LAVEK</Point>
       <Point>FA812</Point>
       <Point>ODUMA</Point>
+      <Point>-13.932081-172.208419</Point>
       <Point>PONAT</Point>
       <Point>SAMVU</Point>
       <Point>UVUTI</Point>
+      <Point>-13.917131-172.215225</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>AROXA</Point>
       <Point>AVKOL</Point>
       <Point>BIGEK</Point>
       <Point>DOROS</Point>
@@ -170,6 +188,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>DINAR</Point>
       <Point>SHMPA</Point>
       <Point>TAFUA</Point>
     </Symbol>
@@ -178,19 +197,17 @@
       <Point>FA406</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>DINAR</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">DINAR/FA406/-134948.770-1720120.201</Line>
     <Line Pattern="Solid">SHMPA/DINAR</Line>
     <Line Pattern="Solid">TAFUA/DINAR</Line>
   </Map>
   <Map Type="System2" Name="08 RNP Labels" Priority="1" Center="-13.830214-172.022278" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>DINAR</Point>
       <Point>SHMPA</Point>
       <Point>TAFUA</Point>
       <Point>FA406</Point>
-      <Point>DINAR</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Center="-13.830214-172.022278">
@@ -328,6 +345,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>FALFA</Point>
       <Point>LAVEK</Point>
       <Point>MAUGA</Point>
     </Symbol>
@@ -336,19 +354,17 @@
       <Point>FA515</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>FALFA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">FALFA/FA515/-134947.590-1715940.132</Line>
     <Line Pattern="Solid">LAVEK/FALFA</Line>
     <Line Pattern="Solid">MAUGA/FALFA</Line>
   </Map>
   <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-13.829886-171.994481" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>FALFA</Point>
       <Point>LAVEK</Point>
       <Point>MAUGA</Point>
       <Point>FA515</Point>
-      <Point>FALFA</Point>
     </Label>
   </Map>
 </Maps>
