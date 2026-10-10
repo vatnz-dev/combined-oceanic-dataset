@@ -24,17 +24,15 @@
       <!--Rwy15 ZELBA9-->
       ZFX VOR/JELOT/ZELBA
     </Line>
-    <Symbol Type="SolidStar">
-      <Point>BYRRD</Point>
-      <Point>JEHOO</Point>
-      <Point>LIBTI</Point>
-    </Symbol>
     <Symbol Type="Circle">
       <Point>ZFX VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>BYRRD</Point>
       <Point>NOBEY</Point>
       <Point>RAPPY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
       <Point>JELOT</Point>
       <Point>ZELBA</Point>
     </Symbol>
@@ -94,19 +92,17 @@
       <Point>GREES</Point>
       <Point>HEMAL</Point>
       <Point>HEMVI</Point>
-    </Symbol>
-    <Symbol Type="SolidStar">
-      <Point>BYRRD</Point>
-      <Point>JEHOO</Point>
+      <Point>NOBEY</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>ZFX VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>JEHOO</Point>
       <Point>RAPPY</Point>
       <Point>WAIS1</Point>
+      <Point>BYRRD</Point>
       <Point>LIBTI</Point>
-      <Point>NOBEY</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>JEHOO</Point>
@@ -119,6 +115,7 @@
       <Point>GREES</Point>
       <Point>HEMAL</Point>
       <Point>HEMVI</Point>
+      <Point>NOBEY</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="33 SIDs" Priority="1" CustomColourName="ProcDep" Center="-77.970097+166.764047">
@@ -145,17 +142,15 @@
       <!--Rwy33 ZELBA9-->
       ZFX VOR/JELOT/ZELBA
     </Line>
-    <Symbol Type="SolidStar">
-      <Point>BYRRD</Point>
-      <Point>JEHOO</Point>
-      <Point>LIBTI</Point>
-    </Symbol>
     <Symbol Type="Circle">
       <Point>ZFX VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>BYRRD</Point>
       <Point>NOBEY</Point>
       <Point>RAPPY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
       <Point>JELOT</Point>
       <Point>ZELBA</Point>
     </Symbol>
@@ -215,19 +210,17 @@
       <Point>GREES</Point>
       <Point>HEMAL</Point>
       <Point>HEMVI</Point>
-    </Symbol>
-    <Symbol Type="SolidStar">
-      <Point>BYRRD</Point>
-      <Point>JEHOO</Point>
+      <Point>NOBEY</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>ZFX VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>JEHOO</Point>
       <Point>RAPPY</Point>
       <Point>WAIS1</Point>
+      <Point>BYRRD</Point>
       <Point>LIBTI</Point>
-      <Point>NOBEY</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>JEHOO</Point>
@@ -240,6 +233,7 @@
       <Point>GREES</Point>
       <Point>HEMAL</Point>
       <Point>HEMVI</Point>
+      <Point>NOBEY</Point>
     </Label>
   </Map>
 </Maps>

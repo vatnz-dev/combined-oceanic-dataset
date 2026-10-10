@@ -48,11 +48,6 @@
       <!--Rwy07 WILLY3-->
       ZWD VOR/HERUG
     </Line>
-    <Symbol Type="SolidStar">
-      <Point>BYRRD</Point>
-      <Point>JEHOO</Point>
-      <Point>LIBTI</Point>
-    </Symbol>
     <Symbol Type="Circle">
       <Point>ZWD VOR</Point>
       <Point>ZFX VOR</Point>
@@ -60,6 +55,7 @@
     <Symbol Type="HollowTriangle">
       <Point>ESUBE</Point>
       <Point>AFOSU</Point>
+      <Point>BYRRD</Point>
       <Point>ZELBA</Point>
       <Point>NOBEY</Point>
       <Point>HIDNI</Point>
@@ -68,6 +64,8 @@
       <Point>JETOD</Point>
       <Point>KYSER</Point>
       <Point>RAPPY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
       <Point>REASE</Point>
       <Point>SKYED</Point>
       <Point>HERUG</Point>
@@ -189,13 +187,9 @@
       <Point>FOMBA</Point>
       <Point>HERUG</Point>
       <Point>HILEX</Point>
+      <Point>NOBEY</Point>
       <Point>MRRTY</Point>
       <Point>WABAB</Point>
-    </Symbol>
-    <Symbol Type="SolidStar">
-      <Point>BYRRD</Point>
-      <Point>JEHOO</Point>
-      <Point>LIBTI</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>ZWD VOR</Point>
@@ -207,8 +201,10 @@
       <Point>RULOE</Point>
       <Point>SARBE</Point>
       <Point>WIKAL</Point>
+      <Point>JEHOO</Point>
       <Point>RAPPY</Point>
-      <Point>NOBEY</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>WAIS1</Point>
@@ -220,6 +216,7 @@
       <Point>FOMBA</Point>
       <Point>HERUG</Point>
       <Point>HILEX</Point>
+      <Point>NOBEY</Point>
       <Point>MRRTY</Point>
       <Point>WABAB</Point>
     </Label>
@@ -272,11 +269,6 @@
       <!--Rwy25 WILLY3-->
       ZWD VOR/HERUG
     </Line>
-    <Symbol Type="SolidStar">
-      <Point>BYRRD</Point>
-      <Point>JEHOO</Point>
-      <Point>LIBTI</Point>
-    </Symbol>
     <Symbol Type="Circle">
       <Point>ZWD VOR</Point>
       <Point>ZFX VOR</Point>
@@ -284,6 +276,7 @@
     <Symbol Type="HollowTriangle">
       <Point>ESUBE</Point>
       <Point>AFOSU</Point>
+      <Point>BYRRD</Point>
       <Point>ZELBA</Point>
       <Point>NOBEY</Point>
       <Point>HIDNI</Point>
@@ -292,6 +285,8 @@
       <Point>JETOD</Point>
       <Point>KYSER</Point>
       <Point>RAPPY</Point>
+      <Point>JEHOO</Point>
+      <Point>LIBTI</Point>
       <Point>REASE</Point>
       <Point>SKYED</Point>
       <Point>HERUG</Point>
@@ -413,13 +408,9 @@
       <Point>FOMBA</Point>
       <Point>HERUG</Point>
       <Point>HILEX</Point>
+      <Point>NOBEY</Point>
       <Point>MRRTY</Point>
       <Point>WABAB</Point>
-    </Symbol>
-    <Symbol Type="SolidStar">
-      <Point>BYRRD</Point>
-      <Point>JEHOO</Point>
-      <Point>LIBTI</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>ZWD VOR</Point>
@@ -431,8 +422,10 @@
       <Point>RULOE</Point>
       <Point>SARBE</Point>
       <Point>WIKAL</Point>
+      <Point>JEHOO</Point>
       <Point>RAPPY</Point>
-      <Point>NOBEY</Point>
+      <Point>BYRRD</Point>
+      <Point>LIBTI</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>WAIS1</Point>
@@ -444,6 +437,7 @@
       <Point>FOMBA</Point>
       <Point>HERUG</Point>
       <Point>HILEX</Point>
+      <Point>NOBEY</Point>
       <Point>MRRTY</Point>
       <Point>WABAB</Point>
     </Label>
